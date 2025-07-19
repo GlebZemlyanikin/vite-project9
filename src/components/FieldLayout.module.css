@@ -1,0 +1,15 @@
+.field {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #372fa8;
+  border: 1px solid #ccc;
+}
